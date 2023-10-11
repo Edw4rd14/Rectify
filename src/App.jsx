@@ -96,8 +96,8 @@ const App = () => {
         </header>
         <main className='grow'>
           <div className='text-center mt-12'>
-            <h1 className='font-extrabold text-2xl uppercase'>Spotify Song Recommendations</h1>
-            <p>Songs will be recommended to you based on your playlist inserted below. <br/> Press submit again if you want to refresh your recommendations.</p>
+            <h1 className='font-extrabold text-2xl uppercase'>Spotify Song Recommendations</h1> 
+            <p>Songs will be recommended to you based on your playlist inserted below. <br/> The recommendations only work on the first <u>100</u> tracks of your playlist. <br/> Press submit again if you want to refresh your recommendations.</p>
           </div>
           <div className='flex justify-center mt-10'>
             <input type='text' placeholder='Enter playlist URL here' className='w-1/3 h-8 rounded p-2' value={formData.playlistURL} name="playlistURL" onChange={handleChange}/>
